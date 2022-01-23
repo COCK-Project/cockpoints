@@ -6,10 +6,6 @@
 // Location is edited in ./config.h
 
 int main(int argc, char *argv[]) {
-//    if(argc < 3) {
-//        puts("Usage: add -a [num]");
-//        return -1;
-//    }
     int opt = getopt(argc, argv, "a:");
     char *num;
 
@@ -48,14 +44,12 @@ int main(int argc, char *argv[]) {
     }
 
     fprintf(fp, "%d", num1 + atoi(str1));
-    fprintf(stdout, "Current Cockpoints: %d\n", num1 + atoi(str1));
 
     fclose(fp);
 
-    if(argc < 3) {
-        puts("Usage: add -a [num]");
-        return -1;
-    }
-
+    if(argc < 4) {
+       fprintf(stdout, "Current Cockpoints: %d\n", num1 + atoi(str1));
+       return -1;
+}
     return 0;
 }

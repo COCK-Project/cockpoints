@@ -6,6 +6,8 @@ Simple number tracker.
 ```bash
 make
 ```
+#### NOTE: 
+You need to have /home/yourUsername/.local/bin in your $PATH to be able to execute it from anywhere
 
 ### Usage:
 ```bash

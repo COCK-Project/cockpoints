@@ -2,15 +2,15 @@
 
 Simple number tracker.
 
-###Installation:
+### Installation:
 ```bash
 make
 ```
 
-###Usage:
+### Usage:
 ```bash
 $ cockpoints -a {number}
 ```
 
-###Credits:
+### Credits:
 All credits go to [@Pr00x](www.github.com/Pr00x)

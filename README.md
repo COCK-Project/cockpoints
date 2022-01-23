@@ -13,4 +13,4 @@ $ cockpoints -a {number}
 ```
 
 ### Credits:
-All credits go to @Pr00x
+All credits go to [Prox](www.github.com/Pr00x)
